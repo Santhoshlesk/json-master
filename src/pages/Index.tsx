@@ -108,7 +108,6 @@ const Index = () => {
           errorLine={validation.error?.line}
         />
       </div>
-
       <ValidationMessage
         isValid={validation.isValid}
         error={validation.error}
