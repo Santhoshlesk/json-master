@@ -99,7 +99,6 @@ const Index = () => {
           onReplace={replaceOne}
           onReplaceAll={replaceAll}
         />
-
         <JsonEditor
           content={content}
           onChange={setContent}
